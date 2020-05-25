@@ -9,7 +9,7 @@ const About = ({
     about: { nodes },
   },
 }) => {
-  const { id, title, stack, info, image } = nodes[0]
+  const { title, stack, info, image } = nodes[0]
   return (
     <Layout>
       <section className="about-page">
