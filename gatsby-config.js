@@ -13,6 +13,7 @@ module.exports = {
     image: "/twitter-img.png",
     siteUrl: "http://localhost:8000/",
   },
+  pathPrefix: "/masila.dev",
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
