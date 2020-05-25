@@ -13,7 +13,7 @@ module.exports = {
     image: "/twitter-img.png",
     siteUrl: "http://localhost:8000/",
   },
-  pathPrefix: "/abel-masila",
+  pathPrefix: "/abel-masila.github.io",
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
