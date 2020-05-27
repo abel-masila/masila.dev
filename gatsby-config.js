@@ -11,7 +11,7 @@ module.exports = {
     author: "@abel-masila",
     twitterUsername: "@abel_masila",
     image: "/twitter-img.png",
-    siteUrl: "http://localhost:8000/",
+    siteUrl: "https://masila.netlify.app/",
   },
   pathPrefix: "/masila.dev",
   plugins: [
@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: `https://api-masila-dev.herokuapp.com`,
         queryLimit: 1000, // Default to 100
         contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [`about`],
