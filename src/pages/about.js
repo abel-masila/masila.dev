@@ -16,7 +16,13 @@ const About = ({
       <SEO title="About" />
       <section className="about-page">
         <div className="section-center about-center">
-          <Image fluid={image.childImageSharp.fluid} className="about-img" />
+          {/* <Image fluid={image.childImageSharp.fluid} className="about-img" /> */}
+          <div className="about-img-container">
+            <Image
+              fluid={image.childImageSharp.fluid}
+              className="about-person-img"
+            />
+          </div>
           <article className="about-text">
             <Title title={title} />
             <p>{info}</p>

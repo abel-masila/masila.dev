@@ -435,6 +435,10 @@ Hero
 .hero-img {
   display: none;
 }
+.img-container {
+  display: none;
+}
+
 .hero-info h4 {
   color: var(--clr-grey-5);
 }
@@ -470,6 +474,63 @@ Hero
     display: block;
     grid-row: 1/1;
     grid-column: 6/-1;
+  }
+  .img-container {
+    display: block;
+  }
+
+  .img-container {
+    position: relative;
+    width: 682px;
+    height: 682px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  .about-img-container {
+    position: relative;
+    width: 450px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .about-img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  .about-person-img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+  }
+
+  .person-img {
+    height: 682px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    display: block;
   }
 }
 @media screen and (min-width: 1170px) {
@@ -899,6 +960,10 @@ About Page
   margin-bottom: 2rem;
   height: 25rem;
 }
+.about-img-container {
+  margin-bottom: 2rem;
+  height: 25rem;
+}
 .about-text .section-title {
   margin-bottom: 2rem;
   text-align: left;
@@ -938,6 +1003,14 @@ About Page
   .about-img {
     grid-column: 1 / span 5;
     margin-bottom: 0;
+  }
+  .about-img-container {
+    grid-column: 1 / span 5;
+    margin-bottom: 0;
+  }
+  .about-img {
+    margin-bottom: 2rem;
+    height: 25rem;
   }
   .about-text {
     grid-column: 6 / -1;

@@ -2,7 +2,6 @@ import React from "react"
 import {
   FaCode,
   FaCogs,
-  FaAndroid,
   FaMobileAlt,
   FaDatabase,
   FaCloud,
