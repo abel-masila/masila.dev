@@ -47,7 +47,11 @@ export const query = graphql`
         }
       }
     }
-    allStrapiBlogs(sort: { fields: date, order: DESC }, limit: 3) {
+    allStrapiBlogs(
+      sort: { fields: date, order: DESC }
+      limit: 3
+      filter: { isPublished: { eq: true } }
+    ) {
       nodes {
         slug
         title

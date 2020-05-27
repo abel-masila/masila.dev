@@ -21,7 +21,7 @@ const Blog = ({
 
 export const query = graphql`
   {
-    allStrapiBlogs {
+    allStrapiBlogs(filter: { isPublished: { eq: true } }) {
       nodes {
         slug
         title
