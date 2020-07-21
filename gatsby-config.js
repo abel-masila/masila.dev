@@ -6,14 +6,15 @@
 
 module.exports = {
   siteMetadata: {
-    title: "masila.dev",
-    description: "This is Abel's Portfolio Site",
+    title: "masila",
+    description:
+      "Abel Masila is a programmer, teacher, speaker, technologist, writer, diversity advocate and more.",
     author: "@abel-masila",
     twitterUsername: "@abel_masila",
     image: "/twitter-img.png",
-    siteUrl: "https://masila.netlify.app/",
+    siteUrl: "https://masila.ml/",
   },
-  pathPrefix: "/masila.dev",
+  pathPrefix: "/masila",
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
