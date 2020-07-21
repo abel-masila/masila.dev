@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -49,7 +49,7 @@ Variables
   --fixed-width: 700px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -203,7 +203,7 @@ p {
   color: var(--clr-primary-5);
 }
 /*
-=============== 
+===============
 Navbar
 ===============
 */
@@ -287,7 +287,7 @@ Navbar
   }
 }
 /*
-=============== 
+===============
 Sidebar
 ===============
 */
@@ -343,7 +343,7 @@ Sidebar
   }
 }
 /*
-=============== 
+===============
 Sidebar Animation
 ===============
 */
@@ -406,7 +406,7 @@ Sidebar Animation
 }
 
 /*
-=============== 
+===============
 Hero
 ===============
 */
@@ -548,7 +548,7 @@ Hero
 }
 
 /*
-=============== 
+===============
 Services
 ===============
 */
@@ -601,7 +601,7 @@ Services
 }
 
 /*
-=============== 
+===============
 Jobs
 ===============
 */
@@ -610,11 +610,18 @@ Jobs
   width: 80vw;
   margin: 0 auto;
   max-width: var(--max-width);
+  overflow: scroll;
 }
 .btn-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 4rem;
+}
+.btn-container-jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   margin-bottom: 4rem;
 }
 .job-btn {
@@ -689,7 +696,7 @@ Jobs
 }
 
 /*
-=============== 
+===============
 Projects
 ===============
 */
@@ -811,7 +818,7 @@ Projects
 }
 
 /*
-=============== 
+===============
 Blog
 ===============
 */

@@ -32,7 +32,7 @@ const Jobs = () => {
     <section className="section jobs">
       <Title title="Experience" />
       <div className="jobs-center">
-        <div className="btn-container">
+        <div className="btn-container-jobs">
           {jobs.map((item, index) => (
             <button
               key={item.strapiId}
